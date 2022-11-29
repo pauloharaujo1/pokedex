@@ -1,13 +1,9 @@
 # Pokedex
 
   
-<img  src='#' alt='exemplo imagem'>
+<img  src='imgs/exemplo_imagem.png alt='exemplo imagem'>
 
-<img  src="#"  alt="exemplo imagem">
 
-<img  src="#"  alt="exemplo imagem">
-
-  
 
 > Project using HTML, CSS and Javascript, consuming an API to display data from each Pokemon, including audio.
 
