@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom,#172c3d, rgb(79, 138, 172) );
+    min-height: 100vh;
+
+}
+
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+    box-shadow: 4px 8px 8px #738899, -5px -2px 8px #738899;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 44px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.pokemon{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 12%;
+
+}
+
+.data{
+    position: absolute;
+    font-weight: 600;
+    color: rgb(92, 92, 92);
+    top: 55%;
+    right: 27%;
+    font-size: clamp(15px, 3vw, 22px);
+
+}
+
+.name{
+    color: black;
+    text-transform: capitalize;
+    
+}
+
+.form{
+    position: absolute;
+    width: 65%;
+    top: 63%;
+    left: 13.5%;
+
+}
+
+.search{
+    width: 100%;
+    padding: 2%;
+    outline: none;
+    height: 3rem;
+    border: 2px, solid, black;
+    border-radius: 5px;
+    font-weight: 600;
+    color: black;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 rgb(131, 131, 131), -5px 7px 0 rgb(94, 93, 93);
+}
+
+.button{
+    position: absolute;
+    height: 5%;
+    bottom: 23.2%;
+    left: 50%;
+    width: 55%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 400px) {
+
+    .pokedex{
+        width: 100%;
+        height: 570px;
+    
+        box-shadow: 4px 8px 8px #738899, -5px -2px 8px #738899;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 44px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .button{
+        position: absolute;
+        bottom: 24%;
+        left: 50%;
+        width: 55%;
+        transform: translate(-57%, 0);
+        display: flex;
+        gap: 2px;
+    }
+
+}
+
+.btn{
+    width: 50%;
+    padding: 1%;
+    border: 2px, solid, black;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1em);
+    font-weight: 600;
+    color: #fff;
+    background-color: #444;
+    box-sizing: -2px 3px 0 #222, -4px 6px 0 #000;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+.btn:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+
+}
+
+.stats{
+    border: 2px solid black;
+    background: linear-gradient(to bottom,#d4e3ff, #94bbee);
+    position: absolute;;
+    padding-left: 1%;
+    bottom: 7%;
+    left: 11%;
+    border-radius: 10px;
+    height: 15%;
+    width: 64%;
+    margin-left: 2%;
+    font-size: clamp(1rem, 1vw, 1rem);
+    text-transform: capitalize;
+}
+
+@media (max-width: 500px) {
+
+    .stats{
+        border: 2px solid black;
+        background: linear-gradient(to bottom,#d4e3ff, #94bbee);
+        position: absolute;;
+        padding-left: 1%;
+        bottom: 7%;
+        left: 11%;
+        border-radius: 10px;
+        height: 17%;
+        width: 64%;
+        margin-left: 2%;
+        font-size: clamp(0.9rem, 1vw, 1rem);
+        text-transform: capitalize;
+    }
+
+}
+.column {
+    float: left;
+    width: 50%;
+   
+  }
+  
+#tipo{
+    text-align: center;
+}
+
+.itens{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 1%;
+
+}
+
+.iten{
+    color: rgb(41, 4, 248);
+    font-size: 18px;
+    text-align: center;
+    padding: 1%;
+
+}
+
+
+@media (max-width: 500px) {
+    .itens{
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        font-size: 12px;
+    
+    }
+    
+    .iten{
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+    
+    }
+
+
+}

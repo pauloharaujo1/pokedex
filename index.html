@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicons/favicon-16x17.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer src="javascript/script.js"></script>
+
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <main>
+            <img src="#" alt="pokemon" class="pokemon">
+            <h1 class="data">
+                <span class="number"></span>
+                <span class="name"></span>
+            </h1>
+            <form class="form">
+                <input type="search" class="search" placeholder="Name or Number" required>
+            </form>
+            <div class="button">
+                <button class="btn button__prev">Prev &lt;</button>
+                <button class="btn button__info" id="audio">Cry</button>
+                <button class="btn button__next">Next &gt;</button>
+            </div>
+            <div class="stats"> 
+                <h3 id="tipo">
+                    <span class="itens">Type: </span> 
+                    <span class="stat-result iten" id="type"></span>
+                </h3>
+                <div class="row" id="tipo">
+                    <h3 class="column">
+                        <span class="itens ">Height: </span>
+                        <span class="stat-result height iten"></span>
+                    </h3>
+                    <h3 class="column">
+                        <span class="itens">Weight: </span>
+                        <span class="stat-result weight iten"></span>
+                    </h3>
+                    <h3 class="column">
+                        <span class="itens">HP:</span>
+                        <span class="stat-result hp iten"></span>
+                    </h3>
+                    <h3 class="column">
+                        <span class="itens">Attack: </span>
+                        <span class="stat-result attack iten"></span>
+                    </h3>
+                    <h3 class="column">
+                        <span class="itens">Defense: </span>
+                        <span class="stat-result defense iten"></span>
+                    </h3>
+                    <h3 class="column">
+                        <span class="itens">SP Attack: </span>
+                        <span class="stat-result spatk iten"></span>
+                    </h3>
+                    <h3 class="column">
+                        <span class="itens">SP Defense: </span>
+                        <span class="stat-result spdef iten"></span>
+                    </h3>
+                    <h3 class="column">
+                        <span class="itens">Speed: </span>
+                        <span class="stat-result speed iten"></span>
+                    </h3>
+                </div>
+            </div>
+            <img src="imgs/pokedex.png" alt="Pokedex" class="pokedex">
+        </main>
+    </body>
+</html>
