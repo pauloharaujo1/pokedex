@@ -1,7 +1,7 @@
 # Pokedex
 
   
-<img  src='imgs/exemplo_imagem.png alt='exemplo imagem'>
+<img  src='imgs/exemplo_imagem.png' alt='exemplo imagem'>
 
 
 
