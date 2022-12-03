@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
-
 body{
     text-align: center;
     background: linear-gradient(to bottom,#172c3d, rgb(79, 138, 172) );
@@ -9,10 +8,51 @@ body{
 
 }
 
+header{
+    padding: 7px;
+    position: relative;
+    background-color:#172c3d;
+    height: 10%;
+    border: solid black;
+}
+
+.pokeballleft{
+    float: left;
+    width:150px;
+    height: 150px;
+}
+
+.pokeballright{
+    float: right;
+    width:150px;
+    height: 150px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-top: 3rem;
+    background-color: #172c3d;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    border-top: 3px solid black;
+}
+
+footer p {
+    padding: 20px;
+    color: #ffffff;
+}
+
+footer p:hover {
+    color: #7074ad;
+}
+
 main{
     display: inline-block;
-    margin-top: 2%;
-    padding: 15px;
+    margin-top: 1%;
+    padding: 5px;
     position: relative;
 }
 
