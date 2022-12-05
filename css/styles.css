@@ -18,15 +18,11 @@ header{
    
 }
 
-.pokeballleft{
+.pokeball{
     width:150px;
     height: 150px;
 }
 
-.pokeballright{
-    width:150px;
-    height: 150px;
-}
 
 main{
     display: inline-block;
@@ -144,6 +140,7 @@ main{
 .btn:hover{
     cursor: pointer;
 }
+
 .btn:active{
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
@@ -224,6 +221,5 @@ main{
         font-size: 12px;
     
     }
-
-
 }
+
